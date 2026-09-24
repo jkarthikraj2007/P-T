@@ -15,5 +15,25 @@ printf("Elements of array a are: ");
     {
         printf("%d ",a[i]);
     }
+
+    int max=a[0];
+    for(int i=0; i<n; i++)
+    {
+        if(a[i]>max)
+        {
+            max=a[i];
+        }
+    }
+    int min=a[0];
+
+    for(int i=0; i<n; i++)
+    {
+        if(a[i]<min)
+        {
+            min=a[i];
+        }
+    }
+    printf("\nMaximum element of array a is: %d",max);
+    printf("\nMinimum element of array a is: %d",min);
     return 0;
 }
