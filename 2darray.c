@@ -9,7 +9,10 @@ int main()
         {
             printf("%d ", arr[i][j]);
         }
+ 
+ 
         printf("\n");
     }
+ 
     return 0;
 }
